@@ -1,0 +1,42 @@
+body {
+    margin: 0
+}
+
+.wrapper {
+    display: flex;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    height: 100vh;
+    flex-flow: row wrap;   
+}
+
+.wrapper > * {
+    flex: 1 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.wrapper .header {
+    background-color: red;
+}
+
+.wrapper .main {
+    background-color: aqua;
+}
+
+.wrapper .main p {
+    margin: 0;
+}
+
+.wrapper .aside-1 {
+    background-color: green;
+}
+
+.wrapper .aside-2 {
+    background-color: pink;
+}
+
+.wrapper .footer {
+    background-color: darkviolet;
+}
